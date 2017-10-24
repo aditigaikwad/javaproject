@@ -8,3 +8,6 @@ phases:
       - echo Entered the build phase...
       - echo Build started on `date`
       - mvn install
+  artifacts:
+  files:
+    - target/*.*
