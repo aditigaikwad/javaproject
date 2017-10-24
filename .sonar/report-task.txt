@@ -1,0 +1,5 @@
+projectKey=samplejava
+serverUrl=http://172.27.59.171:9000
+dashboardUrl=http://172.27.59.171:9000/dashboard/index/samplejava
+ceTaskId=AVyBtziFwrPewYOzk_mz
+ceTaskUrl=http://172.27.59.171:9000/api/ce/task?id=AVyBtziFwrPewYOzk_mz
