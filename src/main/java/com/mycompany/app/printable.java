@@ -1,9 +1,9 @@
-/*  Create an interface: Printable – method print()
+/*  Create an interface: Printable â€“ method print()
 Write a class Utiltiy to have a method printAll( Printable [])
 Pass different objects (Shapes & Animals) to printAll() to print them. */
 
 
-package Printable_prog
+package Printable_prog;
 
 
 interface printablee 
