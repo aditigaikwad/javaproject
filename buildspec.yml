@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t javaproject:java.
+      - docker build -t javaproject:java .
       - docker tag javaproject:java javaproject:java
   post_build:
     commands:
