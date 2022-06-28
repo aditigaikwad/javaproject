@@ -1,6 +1,16 @@
 pool:
   vmImage: 'ubuntu-latest'
- 
+
+stages:
+- stage: A
+  jobs:
+  - job: A1
+  - job: A2
+
+- stage: B
+  jobs:
+  - job: B1
+  - job: B2
 jobs:
 - job: Firstjob
   timeoutInMinutes: 10
